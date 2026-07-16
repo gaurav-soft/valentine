@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARI JEWEL HUB | Premium Handmade Luxury</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts for Luxury Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        .font-serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+</head>
+<body class="bg-[#0B192C] text-white antialiased selection:bg-[#D91656] selection:text-white">
+
+    <!-- ⚡ Dynamic Shopify Promo Bar -->
+    <div class="bg-[#D91656] text-center text-[10px] md:text-xs tracking-[0.2em] font-bold py-2.5 px-4 uppercase text-white animate-pulse">
+        ⚡ FREE EXPRESS SHIPPING ON ALL FESTIVE PRE-PAID ORDERS TODAY ⚡
+    </div>
+
+    <!-- 👑 Luxury Navigation Header -->
+    <header class="border-b border-white/10 sticky top-0 bg-[#0B192C]/90 backdrop-blur-md z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Brand Logo -->
+            <div class="text-xl md:text-2xl font-bold tracking-[0.25em] font-serif text-white cursor-pointer hover:text-[#D91656] transition-colors">
+                👑 PARI JEWEL HUB 👑
+            </div>
+            
+            <!-- Shopify Style Center Menu -->
+            <nav class="hidden lg:flex space-x-8 text-xs font-semibold tracking-widest uppercase text-gray-300">
+                <a href="#new" class="hover:text-[#D91656] transition-colors border-b border-transparent hover:border-[#D91656] pb-1">New Arrivals</a>
+                <a href="#rakhi" class="hover:text-[#D91656] transition-colors border-b border-transparent hover:border-[#D91656] pb-1">Rakhi Edit</a>
+                <a href="#necklaces" class="hover:text-[#D91656] transition-colors border-b border-transparent hover:border-[#D91656] pb-1">Necklaces</a>
+                <a href="#earrings" class="hover:text-[#D91656] transition-colors border-b border-transparent hover:border-[#D91656] pb-1">Earrings</a>
+                <a href="#nostril" class="hover:text-[#D91656] transition-colors border-b border-transparent hover:border-[#D91656] pb-1">Nostrils</a>
+            </nav>
+
+            <!-- Action Icons -->
+            <div class="flex space-x-5 text-gray-300 items-center text-sm">
+                <span class="cursor-pointer hover:text-white">🔍 Search</span>
+                <div class="relative cursor-pointer hover:text-white flex items-center gap-1">
+                    <span>🛒 Bag</span>
+                    <span class="bg-[#D91656] text-white text-[9px] rounded-full w-4 h-4 flex items-center justify-center font-bold">1</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 🎬 Hero Interactive Banner Section -->
+    <section class="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+            <span class="text-[#D91656] uppercase tracking-[0.3em] text-xs font-bold block">100% Artisan Hand-Crafted</span>
+            <h1 class="text-4xl md:text-6xl font-serif tracking-wide leading-tight text-gray-100">
+                Glamour In Every Thread. <br><span class="italic text-[#D91656]">Charming</span> In Every Shade.
+            </h1>
+            <p class="text-gray-400 font-light max-w-lg text-sm md:text-base leading-relaxed">
+                Discover spectacular, colorful handmade statement jewelry. Intricately woven threads, vibrant gemstone combinations, and dainty nose pins crafted meticulously for your timeless moments.
+            </p>
+            <div class="pt-4">
+                <a href="#collection" class="inline-block bg-[#D91656] hover:bg-[#b01043] transition-all text-white font-bold text-xs tracking-[0.2em] uppercase px-8 py-4 shadow-lg hover:shadow-[#D91656]/20">
+                    EXPLORE THE VIBRANCE →
+                </a>
+            </div>
+        </div>
+        
+        <!-- Premium Product Showcase Box -->
+        <div class="bg-white/5 border border-white/10 p-6 md:p-8 backdrop-blur-sm rounded-none shadow-2xl relative group">
+            <div class="aspect-square w-full rounded-none mb-6 overflow-hidden bg-[#07111E]">
+                <!-- Luxury Colorful Handmade Jewelry Placement -->
+                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80" 
+                     alt="Handmade Luxury Necklace" 
+                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90">
+                <div class="absolute top-10 left-10 bg-[#D91656] text-white text-[9px] font-bold tracking-[0.15em] px-3 py-1 uppercase">
+                    Artisan Best Seller
+                </div>
+            </div>
+            <div class="flex justify-between items-start">
+                <div>
+                    <h3 class="font-serif text-xl tracking-wide text-gray-100">Turquoise Fusion Choker</h3>
+                    <p class="text-[#D91656] font-bold text-lg mt-1">₹2,499.00</p>
+                </div>
+                <!-- Dynamic Swatches Preview -->
+                <div class="flex space-x-1.5 pt-1">
+                    <span class="w-4 h-4 rounded-full bg-[#0B192C] border border-white cursor-pointer" title="Midnight Blue"></span>
+                    <span class="w-4 h-4 rounded-full bg-[#D91656] border border-transparent hover:border-white cursor-pointer" title="Hot Fuchsia"></span>
+                    <span class="w-4 h-4 rounded-full bg-[#0A4D3C] border border-transparent hover:border-white cursor-pointer" title="Emerald Green"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ⭕ Shopify Style Circular Categories -->
+    <section id="collection" class="max-w-7xl mx-auto px-6 py-16 border-t border-white/5">
+        <h2 class="text-center font-serif text-3xl tracking-wider mb-12">Shop By Handmade Categories</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 justify-center text-center">
+            
+            <!-- Cat 1 -->
+            <div class="group cursor-pointer">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border border-white/20 group-hover:border-[#D91656] transition-all p-1 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full">
+                </div>
+                <p class="text-xs font-semibold tracking-wider uppercase mt-4 group-hover:text-[#D91656] transition-colors">Rakhi Specials</p>
+            </div>
+
+            <!-- Cat 2 -->
+            <div class="group cursor-pointer">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border border-white/20 group-hover:border-[#D91656] transition-all p-1 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full">
+                </div>
+                <p class="text-xs font-semibold tracking-wider uppercase mt-4 group-hover:text-[#D91656] transition-colors">Necklaces</p>
+            </div>
+
+            <!-- Cat 3 -->
+            <div class="group cursor-pointer">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border border-white/20 group-hover:border-[#D91656] transition-all p-1 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full">
+                </div>
+                <p class="text-xs font-semibold tracking-wider uppercase mt-4 group-hover:text-[#D91656] transition-colors">Rings</p>
+            </div>
+
+            <!-- Cat 4 -->
+            <div class="group cursor-pointer">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border border-white/20 group-hover:border-[#D91656] transition-all p-1 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full">
+                </div>
+                <p class="text-xs font-semibold tracking-wider uppercase mt-4 group-hover:text-[#D91656] transition-colors">Earrings</p>
+            </div>
+
+            <!-- Cat 5 -->
+            <div class="group cursor-pointer">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border border-white/20 group-hover:border-[#D91656] transition-all p-1 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full">
+                </div>
+                <p class="text-xs font-semibold tracking-wider uppercase mt-4 group-hover:text-[#D91656] transition-colors">Nostrils</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 🛍️ 4-Column Dynamic Product Grid -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+        <div class="flex justify-between items-baseline mb-10">
+            <h2 class="font-serif text-3xl tracking-wider">Weekly Hot Sellers</h2>
+            <a href="#all" class="text-xs font-bold tracking-widest uppercase text-[#D91656] hover:underline">View All Products →</a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Card 1 -->
+            <div class="bg-white/5 border border-white/10 p-4 flex flex-col justify-between group">
+                <div class="aspect-square bg-[#07111E] overflow-hidden mb-4 relative">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div>
+                    <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">Rakhi</p>
+                    <h4 class="font-serif text-lg tracking-wide mt-1 text-gray-200">Zardosi Multi-Color Rakhi</h4>
+                    <p class="text-[#D91656] font-bold text-sm mt-1">₹499.00</p>
+                    <button class="w-full bg-[#D91656] text-white font-bold text-[11px] tracking-widest uppercase py-2.5 mt-4 hover:bg-white hover:text-[#0B192C] transition-all">Quick Add +</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white/5 border border-white/10 p-4 flex flex-col justify-between group">
+                <div class="aspect-square bg-[#07111E] overflow-hidden mb-4 relative">
+                    <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div>
+                    <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">Earrings</p>
+                    <h4 class="font-serif text-lg tracking-wide mt-1 text-gray-200">Afghan Colorful Hoops</h4>
+                    <p class="text-[#D91656] font-bold text-sm mt-1">₹899.00</p>
+                    <button class="w-full bg-[#D91656] text-white font-bold text-[11px] tracking-widest uppercase py-2.5 mt-4 hover:bg-white hover:text-[#0B192C] transition-all">Quick Add +</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white/5 border border-white/10 p-4 flex flex-col justify-between group">
+                <div class="aspect-square bg-[#07111E] overflow-hidden mb-4 relative">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div>
+                    <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">Nostril</p>
+                    <h4 class="font-serif text-lg tracking-wide mt-1 text-gray-200">Emerald Floral Nose Stud</h4>
+                    <p class="text-[#D91656] font-bold text-sm mt-1">₹299.00</p>
+                    <button class="w-full bg-[#D91656] text-white font-bold text-[11px] tracking-widest uppercase py-2.5 mt-4 hover:bg-white hover:text-[#0B192C] transition-all">Quick Add +</button>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white/5 border border-white/10 p-4 flex flex-col justify-between group">
+                <div class="aspect-square bg-[#07111E] overflow-hidden mb-4 relative">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div>
+                    <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">Rings</p>
+                    <h4 class="font-serif text-lg tracking-wide mt-1 text-gray-200">Vibrant Meenakari Band</h4>
+                    <p class="text-[#D91656] font-bold text-sm mt-1">₹799.00</p>
+                    <button class="w-full bg-[#D91656] text-white font-bold text-[11px] tracking-widest uppercase py-2.5 mt-4 hover:bg-white hover:text-[#0B192C] transition-all">Quick Add +</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 🏢 Professional Agency Footer -->
+    <footer class="bg-[#07111E] border-t border-white/5 pt-16 pb-8 px-6 mt-20">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm text-gray-400">
+            <div>
+                <h4 class="text-white font-serif tracking-widest text-base mb-4">👑 PARI JEWEL HUB</h4>
+                <p class="font-light leading-relaxed text-xs">Charming handmade luxury created meticulously for your daily shine, multi-colored statement styles, and auspicious wedding moments.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold tracking-wider text-xs uppercase mb-4">E-Commerce Architecture</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#bespoke" class="hover:text-white transition-colors">Custom Bespoke Orders</a></li>
+                    <li><a href="#vendors" class="hover:text-white transition-colors">Artisan / Vendor Logins</a></li>
+                    <li><a href="#agents" class="hover:text-white transition-colors">Sales Executive Panel</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold tracking-wider text-xs uppercase mb-4">Store Compliance</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#privacy" class="hover:text-white transition-colors">Privacy Protocol</a></li>
+                    <li><a href="#terms" class="hover:text-white transition-colors">Terms of Operations</a></li>
+                    <li><a href="#shipping" class="hover:text-white transition-colors">Logistics Tracking</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold tracking-wider text-xs uppercase mb-4">Studio Hub</h4>
+                <p class="text-xs leading-relaxed">
+                    Hazratganj Main Lane,<br>
+                    Lucknow, UP - India <br>
+                    <span class="block mt-2 font-semibold text-gray-300">📧 support@parijewelhub.com</span>
+                </p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto text-center border-t border-white/5 mt-12 pt-6 text-xs text-gray-5xl tracking-wider">
+            © 2026 PARI JEWEL HUB. Powered by Shopify-Style Dynamic Systems.
+        </div>
+    </footer>
+
+</body>
+</html>
